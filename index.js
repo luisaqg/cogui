@@ -1,8 +1,8 @@
 const express = require('express')
-const products = require('./products')
-const clients = require('./clients')
-const purchases = require('./purchases')
-const sales = require('./sales')
+const products = require('./routes/products')
+const clients = require('./routes/clients')
+const purchases = require('./routes/purchases')
+const sales = require('./routes/sales')
 const app = express()
 
 app.use(express.json())
